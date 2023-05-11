@@ -34,6 +34,7 @@ spec:
     spec:
       containers:
       - name: app
+        image: gcr.io/retail-364515/adept-mall-api
         ports:
         - name: http
           containerPort: 4000
